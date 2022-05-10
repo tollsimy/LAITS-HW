@@ -1,0 +1,17 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 4b972e42-c6c1-4c00-b577-1ef29657b247)
+
+  (paper "A4")
+
+  (title_block
+    (title "BATT")
+    (date "2022-05-04")
+    (rev "BETA")
+    (company "tollsimy")
+  )
+
+  (lib_symbols
+  )
+
+)
