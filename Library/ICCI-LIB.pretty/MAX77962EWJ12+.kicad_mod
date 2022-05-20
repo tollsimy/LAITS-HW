@@ -1,4 +1,4 @@
-(footprint "BGA49C50P7X7_346X346X69" (version 20211014) (generator pcbnew)
+(footprint "MAX77962EWJ12+" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (descr "W493G3+2")
@@ -8,7 +8,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp aa5c6d4c-9576-4192-b006-902f72b05a71)
   )
-  (fp_text value "BGA49C50P7X7_346X346X69" (at -0.025 4.55) (layer "F.SilkS") hide
+  (fp_text value "MAX77962EWJ12+" (at -0.025 4.55) (layer "F.SilkS") hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp b499e1ee-d046-47aa-be11-74e0269f4e02)
   )
