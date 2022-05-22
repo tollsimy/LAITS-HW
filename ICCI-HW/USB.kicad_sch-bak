@@ -1622,7 +1622,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9a98444e-86ed-4776-849a-f136374be2b2)
   )
-  (text "Up to 1.5A (and maybe more?)" (at 227.33 123.825 0)
+  (text "1.5A (and more?)" (at 227.33 123.825 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cd124672-c3a1-4edc-8efd-40f91c71e91b)
   )
