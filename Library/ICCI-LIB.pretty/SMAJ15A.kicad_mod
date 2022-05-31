@@ -26,8 +26,8 @@
   (fp_line (start -2.165 1.28) (end 2.165 1.28) (layer "F.Fab") (width 0.127) (tstamp 89bf094a-71fb-4046-a7b8-36f6ccffa1e8))
   (fp_line (start -2.165 -1.28) (end -2.165 1.28) (layer "F.Fab") (width 0.127) (tstamp cc9f037e-758b-428a-b606-e00733e0a9b5))
   (fp_circle (center -3.85 0.675) (end -3.75 0.675) (layer "F.Fab") (width 0.2) (fill none) (tstamp 742066ed-c4a4-45a9-9ed7-5cd26ed18d69))
-  (pad "A" smd rect (at 2.115 0) (size 2.12 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bcf92a96-e2ff-458a-a622-386a1908eec2))
-  (pad "C" smd rect (at -2.115 0) (size 2.12 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 241072a3-e6ec-443a-b343-36e1f32694a2))
+  (pad "1" smd rect (at -2.115 0) (size 2.12 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 241072a3-e6ec-443a-b343-36e1f32694a2))
+  (pad "2" smd rect (at 2.115 0) (size 2.12 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bcf92a96-e2ff-458a-a622-386a1908eec2))
   (model "/home/tollsimy/Desktop/Tirocinio/Hardware/Library/3D Models/SMAJ15A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
