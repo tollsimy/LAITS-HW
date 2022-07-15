@@ -6,9 +6,9 @@
 
   (title_block
     (title "Sensors")
-    (date "2022-05-04")
+    (date "2022-07-14")
     (rev "BETA")
-    (company "tollsimy")
+    (company "Simone Tollardo")
   )
 
   (lib_symbols
@@ -1122,7 +1122,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 97666cef-7e2c-463c-8997-647e1292dbcc)
   )
-  (text "DS report\nno pull-up, \nneed testing." (at 69.215 118.11 0)
+  (text "DS report\nno pull-up, \nNeed testing." (at 69.215 118.11 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c60065da-0ef1-43eb-a51c-aa26976f9de6)
   )
@@ -1130,7 +1130,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ccfc5f8b-93ff-4e1c-825d-1c31edf46fb2)
   )
-  (text "SENSORS" (at 62.865 19.685 180)
+  (text "SENSORS" (at 62.865 20.955 180)
     (effects (font (size 3 3) (thickness 0.6) bold) (justify right bottom))
     (uuid d0791eb7-03be-4e7e-a1cb-f65d75b5726e)
   )
@@ -2192,7 +2192,7 @@
     (uuid e78c734f-152d-48ef-9d0f-90b4ac500652)
     (property "Reference" "U305" (id 0) (at 63.5 85.725 0))
     (property "Value" "TSL2561" (id 1) (at 52.705 83.185 0))
-    (property "Footprint" "ICCI-LIB:TLS2561" (id 2) (at 52.705 94.615 0)
+    (property "Footprint" "ICCI-LIB:TSL2561" (id 2) (at 52.705 94.615 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 52.705 94.615 0)

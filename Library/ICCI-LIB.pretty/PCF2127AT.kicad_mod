@@ -42,4 +42,9 @@
   (pad "18" smd roundrect (at 4.72 -3.175) (size 1.92 0.59) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.07) (tstamp 8ebd8a64-4ef6-41ef-8b48-c6315937e917))
   (pad "19" smd roundrect (at 4.72 -4.445) (size 1.92 0.59) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.07) (tstamp 3f6c30bf-2d47-4f5d-ad1a-82294ae73208))
   (pad "20" smd roundrect (at 4.72 -5.715) (size 1.92 0.59) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.07) (tstamp 57070687-20d3-4049-9776-dd74ed9468c0))
+  (model "/home/tollsimy/Desktop/Tirocinio/Hardware/Library/3D Models/PCF2127AT_2Y.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

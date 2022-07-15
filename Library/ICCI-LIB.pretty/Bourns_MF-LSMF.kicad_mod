@@ -30,4 +30,9 @@
   (fp_line (start 4.45 2.45) (end -4.45 2.45) (layer "F.Fab") (width 0.1) (tstamp ee359e4a-498c-40d0-b314-90fc01797509))
   (pad "1" smd rect (at -3.3 -0.275) (size 2 5.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8a6dda0c-d1db-484e-886b-ebf631e924c3))
   (pad "2" smd rect (at 3.3 -0.275) (size 2 5.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 31699437-0681-4be0-9f2b-01a236b38d9c))
+  (model "/home/tollsimy/Desktop/Tirocinio/Hardware/Library/3D Models/2920_SMD_3D.STEP"
+    (offset (xyz 0 0.25 0.85))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
 )
