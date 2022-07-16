@@ -2188,7 +2188,7 @@
   (symbol (lib_id "Device:C") (at 201.93 62.865 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1dc930b7-56bc-401b-b21a-5574708ad21c)
-    (property "Reference" "C206" (id 0) (at 194.945 61.595 0)
+    (property "Reference" "C206" (id 0) (at 194.31 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (id 1) (at 194.945 64.135 0)

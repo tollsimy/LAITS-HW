@@ -986,6 +986,9 @@
     (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/e78f2b4f-c3e9-400f-a543-57b0df97e724"
       (reference "#PWR0503") (unit 1) (value "VSYS") (footprint "")
     )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/e541a03f-503f-41e7-92c4-de18d849e281"
+      (reference "#PWR0504") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/044e267f-9064-44b5-bf09-ed231d854f0d"
       (reference "#PWR0505") (unit 1) (value "GND") (footprint "")
     )
@@ -1099,6 +1102,39 @@
     )
     (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/b700c952-3271-494e-a086-eaae1f598819"
       (reference "#PWR0542") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/f399d34c-161e-48d5-a4bb-1119ede22a40"
+      (reference "#PWR0543") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/0d4ae26a-5e0a-4ca5-b59c-e3cbc9425558"
+      (reference "#PWR0544") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/7f8c2317-a5c5-4279-aada-7dba099e9028"
+      (reference "#PWR0545") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/8b62ed44-a1c5-4c34-83f2-e44c23521a60"
+      (reference "#PWR0546") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/c7a01fa6-871a-4dce-9a7b-f9c7aca664af"
+      (reference "#PWR0547") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/055990df-7a22-4760-a445-4a8d395b1e2a"
+      (reference "#PWR0548") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/d8e84d1f-fc21-4bab-afcf-df241eef9b2a"
+      (reference "#PWR0549") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/b5f72044-ddc1-4caf-9aa0-050049dfa452"
+      (reference "#PWR0550") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/380530c3-9f62-4856-b5d8-673ceed0565e"
+      (reference "#PWR0551") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/2029e54d-0356-476d-9410-708e6468ac6f"
+      (reference "#PWR0552") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/54f40f50-25c2-40c7-bdbe-eb43bfee74e7"
+      (reference "#PWR0553") (unit 1) (value "GND") (footprint "")
     )
     (path "/cae5ab82-da76-4670-8a36-68f75cc70c4e/4ae0c778-9f5e-4a2e-a46d-6253780ad502"
       (reference "#PWR0601") (unit 1) (value "+3V3") (footprint "")
@@ -1351,6 +1387,24 @@
     )
     (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/254a406c-0bc9-4176-8c0f-ca9cab2afe55"
       (reference "C511") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/188d3555-7723-485e-9279-86c94cd7ff96"
+      (reference "C512") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/2b01f3ed-548f-4f89-9c66-b2452532a2e3"
+      (reference "C513") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/42320b80-8a08-453f-b682-a67eda95ac1b"
+      (reference "C514") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/d59c1b09-35fa-4538-80d8-62d6c9107e65"
+      (reference "C515") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/de58230f-f24e-49a7-ac02-57681fa20115"
+      (reference "C516") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/5edebedc-f41c-4f1f-9f90-5bb7df590118/4f96d815-d733-41bb-900f-378fd9b51e60"
+      (reference "C517") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/cae5ab82-da76-4670-8a36-68f75cc70c4e/841d3231-9d7b-4b4e-a155-880960d140dd"
       (reference "C601") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
