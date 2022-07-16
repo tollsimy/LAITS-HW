@@ -284,6 +284,11 @@
     (uuid fefab5c3-dac7-4d83-a983-35b97f4e4a8b)
   )
 
+  (text "- solve small errors on DRC" (at 112.395 144.145 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid 43b1dbd9-fdf4-4279-84be-0164a73ae456)
+  )
+
   (sheet (at 131.445 69.85) (size 38.1 51.435) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
