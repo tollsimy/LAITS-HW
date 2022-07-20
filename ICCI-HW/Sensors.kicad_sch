@@ -1341,7 +1341,7 @@
     (property "Value" "DS18B20" (id 1) (at 45.085 177.165 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (id 2) (at 21.59 175.895 0)
+    (property "Footprint" "ICCI-LIB:DS18B20 Hor." (id 2) (at 21.59 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" (id 3) (at 43.18 163.195 0)
