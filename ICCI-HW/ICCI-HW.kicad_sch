@@ -1508,8 +1508,8 @@
     (path "/c01df0d0-40d4-4f5b-bf2f-5193fe038d8f/fbd15d4d-0f93-4014-af00-cac8844b64ae"
       (reference "J201") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "ICCI-LIB:USB_C_Receptacle_Amphenol_12401548E4-2A")
     )
-    (path "/1c257f8f-2137-47e2-9ced-0ed4433361c2/325d0195-9772-4cde-a789-f94dd0a78295"
-      (reference "J401") (unit 1) (value "EXP") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal")
+    (path "/1c257f8f-2137-47e2-9ced-0ed4433361c2/f10fb4bc-8646-48a0-a9f4-b26f71808ba3"
+      (reference "J401") (unit 1) (value "EXP") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Horizontal")
     )
     (path "/1c257f8f-2137-47e2-9ced-0ed4433361c2/4714646e-78fd-49d7-89a9-7c30a658200e"
       (reference "J403") (unit 1) (value "DM3AT-SF-PEJM5") (footprint "ICCI-LIB:ICCI_microSD_HC_Hirose_DM3AT-SF-PEJM5")
