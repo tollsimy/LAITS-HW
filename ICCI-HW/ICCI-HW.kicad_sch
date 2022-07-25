@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "ICCI (Iperspectral Camera Calibration Instrument)")
+    (title "LAITS (Light Analysis Iot porTable Spectrometer)")
     (date "2022-07-14")
-    (rev "BETA")
+    (rev "1.0")
     (company "Simone Tollardo")
   )
 
@@ -310,7 +310,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid a15505f5-f73b-4fd4-a533-9a5fe57b565e)
     )
-    (pin "~{GPS_RESET}" input (at 169.545 107.315 0)
+    (pin "~{GPS_RST}" input (at 169.545 107.315 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid c54826ff-2833-49bb-b169-967f8cb13812)
     )
@@ -470,7 +470,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 08a1e7be-5b83-4409-a324-f37a5898bca8)
     )
-    (pin "~{GPS_RESET}" output (at 173.99 107.315 180)
+    (pin "~{GPS_RST}" output (at 173.99 107.315 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 27e26bb1-cbcc-41df-bd44-da853da60c0d)
     )

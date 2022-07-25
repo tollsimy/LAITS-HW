@@ -7,7 +7,7 @@
   (title_block
     (title "AUX + Peripherals")
     (date "2022-07-14")
-    (rev "BETA")
+    (rev "1.0")
     (company "Simone Tollardo")
   )
 
@@ -3940,7 +3940,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 01ee9d6d-2280-4d04-b65a-b1536dfd4f7c)
   )
-  (label "~{GPS_RESET}" (at 52.705 56.515 0)
+  (label "~{GPS_RST}" (at 52.705 56.515 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 10cf161c-a014-45b8-b965-d08b9f01e128)
   )
@@ -4177,7 +4177,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 89a36334-9e8a-400b-b138-e4f31e6c8e37)
   )
-  (hierarchical_label "~{GPS_RESET}" (shape input) (at 52.705 56.515 180)
+  (hierarchical_label "~{GPS_RST}" (shape input) (at 52.705 56.515 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 938ac310-f945-4fa0-9fbb-fbc31f6dd6e4)
   )
