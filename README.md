@@ -1,2 +1,2 @@
-# ICCI-HW
-ICCI Hardware repo
+# LAITS-HW
+LAITS Hardware repo
