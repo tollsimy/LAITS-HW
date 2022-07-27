@@ -503,12 +503,6 @@
     )
   )
 
-  (text "MAX SDA, SCL and other logical digital pin are 3V3 tolerant?"
-    (at 95.885 141.605 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 7014c9d6-fa6c-4363-9161-32474c9b1c72)
-  )
-
   (sheet (at 131.445 69.85) (size 38.1 51.435) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))

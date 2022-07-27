@@ -28,4 +28,5 @@ https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=1132
 https://www.edmundoptics.eu/p/125mm-dia-broadband-hybrid-diffuser/34782/
 
 ## Protective lens
+Acrylic (Transmission Spectrum really good from about 400nm, maybe 1 channel sacrificed, to 1200nm) protective lens:
 https://www.fluid3dworkshop.co.uk/basket 40mm

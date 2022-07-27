@@ -1265,7 +1265,6 @@
     )
   )
 
-
   (junction (at 210.82 55.245) (diameter 0) (color 0 0 0 0)
     (uuid 0f42e444-9924-4618-8570-b658a4572374)
   )
@@ -1583,7 +1582,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 41031b23-9819-487c-ad21-8cdccfaf3f7b)
   )
-  (wire (pts (xy 161.29 59.69) (xy 172.466 59.69))
+  (wire (pts (xy 161.29 59.69) (xy 170.815 59.69))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4224b060-7143-4fc7-9e6a-95ef90062406)
   )
@@ -2752,7 +2751,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d8e158b3-7922-4d64-8306-1769382d0140)
   )
-  (label "~{EXP_RST}" (at 172.466 59.69 180)
+  (label "~{EXP_RST}" (at 170.815 59.69 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e73bcdd7-e190-4123-8469-5c423625b695)
   )
