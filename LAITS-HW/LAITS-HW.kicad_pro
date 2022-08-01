@@ -433,7 +433,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Project Outputs/LAITS-HW.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
