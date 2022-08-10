@@ -105,11 +105,11 @@
       )
     )
   )
-  (symbol "AP62301WU-7" (in_bom yes) (on_board yes)
+  (symbol "AP62301Z6-7" (in_bom yes) (on_board yes)
     (property "Reference" "U?" (id 0) (at -5.715 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AP62301WU-7" (id 1) (at 7.62 -6.35 0)
+    (property "Value" "AP62301Z6-7" (id 1) (at 7.62 -6.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 0 10.16 0)
@@ -118,13 +118,13 @@
     (property "Datasheet" "" (id 3) (at 0 10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "AP62301WU-7_0_1"
+    (symbol "AP62301Z6-7_0_1"
       (rectangle (start -7.62 5.08) (end 7.62 -5.08)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
-    (symbol "AP62301WU-7_1_1"
+    (symbol "AP62301Z6-7_1_1"
       (pin power_in line (at -10.16 2.54 0) (length 2.54)
         (name "VIN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))

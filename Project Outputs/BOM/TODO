@@ -1,4 +1,1 @@
-- update INLIM_R resistor (R621) to 54.9k (1.5A max) -> in the first version board is mounted a 22.6k
 - add NMOS for silicon issue (see errata) of CP2102N, probably not needed, marked as DNP.
-- add 3x (4.7u and 100n) decoupling for GPIO expander
--red led are oval -> wrong
