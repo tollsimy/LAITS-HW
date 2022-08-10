@@ -7,7 +7,7 @@
   (title_block
     (title "LAITS (Light Analysis Iot porTable Spectrometer)")
     (date "2022-07-14")
-    (rev "1.0")
+    (rev "1.0.1")
     (company "Simone Tollardo")
   )
 
@@ -2070,7 +2070,7 @@
       (reference "U601") (unit 1) (value "NCV8164ASN180T1G") (footprint "LAITS-LIB:NCV8164ASN180T1G")
     )
     (path "/cae5ab82-da76-4670-8a36-68f75cc70c4e/0a570a95-50b6-4d51-ad82-a0377d90e478"
-      (reference "U602") (unit 1) (value "AP62301WU-7") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
+      (reference "U602") (unit 1) (value "AP62301Z6-7") (footprint "LAITS-LIB:LAITS-SOT-563")
     )
     (path "/cae5ab82-da76-4670-8a36-68f75cc70c4e/58f9cfee-a17b-4fc5-a237-c779e9604c0b"
       (reference "U603") (unit 1) (value "MAX77960BEFV12+") (footprint "LAITS-LIB:MAX77960BEFV12+")

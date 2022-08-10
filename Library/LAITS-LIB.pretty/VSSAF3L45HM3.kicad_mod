@@ -16,7 +16,7 @@
   (fp_line (start 2.125 1.3) (end -2.125 1.3) (layer "F.SilkS") (width 0.127) (tstamp ac717d6b-11c9-4417-9582-5f7053bb6d27))
   (fp_line (start 2.125 1.3) (end 2.125 1.06) (layer "F.SilkS") (width 0.127) (tstamp c396fe2d-8a37-4bdb-b142-d4f8fb0d88a0))
   (fp_line (start -2.125 1.3) (end -2.125 1.06) (layer "F.SilkS") (width 0.127) (tstamp e55375c6-9c47-4184-871a-a9efaddd9d73))
-  (fp_circle (center -3.585 1) (end -3.485 1) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 6deeecff-fb42-46b1-a55a-7c2e130c3581))
+  (fp_circle (center -2.75 -1.7) (end -2.65 -1.7) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 6deeecff-fb42-46b1-a55a-7c2e130c3581))
   (fp_line (start -3.135 1.55) (end 3.135 1.55) (layer "F.CrtYd") (width 0.05) (tstamp 29202001-9184-4cdf-82be-fd2445a1834b))
   (fp_line (start 3.135 1.55) (end 3.135 -1.55) (layer "F.CrtYd") (width 0.05) (tstamp af293721-2933-48f1-981a-8d2ef771acc4))
   (fp_line (start -3.135 -1.55) (end -3.135 1.55) (layer "F.CrtYd") (width 0.05) (tstamp b773b7ff-b453-4db2-ad78-40b6ad2623dd))
@@ -25,7 +25,7 @@
   (fp_line (start 2.125 1.3) (end -2.125 1.3) (layer "F.Fab") (width 0.127) (tstamp 4b2fa405-069b-4193-bef9-ea026bd73173))
   (fp_line (start -2.125 -1.3) (end 2.125 -1.3) (layer "F.Fab") (width 0.127) (tstamp 4fccf0c3-654f-4938-929a-8d5925cf018e))
   (fp_line (start 2.125 -1.3) (end 2.125 1.3) (layer "F.Fab") (width 0.127) (tstamp ee75049e-eec1-43be-8640-6eabb768a9c5))
-  (fp_circle (center -3.585 1) (end -3.485 1) (layer "F.Fab") (width 0.2) (fill none) (tstamp 7c2e27f1-0593-42b6-8be0-d09733d7d498))
+  (fp_circle (center -2.75 -1.7) (end -2.65 -1.7) (layer "F.Fab") (width 0.2) (fill none) (tstamp 7c2e27f1-0593-42b6-8be0-d09733d7d498))
   (pad "1" smd rect (at -2.165 0) (size 1.44 1.48) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c6044619-ae07-47d7-a50d-caf92b829e21))
   (pad "2" smd rect (at 2.165 0) (size 1.44 1.48) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9e6bf120-3de3-4401-a57e-ca9f6ff76c77))
   (model "/home/tollsimy/Desktop/Tirocinio/Hardware/Library/3D Models/VSSAF3L45HM3.STEP"
