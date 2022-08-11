@@ -9,7 +9,7 @@ ESP32 Chipsets:
 Constraints:
 - Ipex antenna
 - BLE
-- Module version
+- Available in castellated holes module version
 
 ## Results (non NRND)
 - ESP32-C3-MINI-1U
