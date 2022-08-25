@@ -13,7 +13,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-LAITS-HW/LAITS-HW-backups
+LAITS-HW/LAITS-HW-backups/**
 
 # Netlist files (exported from Eeschema)
 *.net

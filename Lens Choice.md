@@ -21,12 +21,9 @@ All these consideration led to a Diffuser.
 
 Pratically, the diffuser spread the light beams in random direction.
 
-- Thorlab BK7 diffuser, lowest price but bad characteristics. -> 12.7mm
-https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=1132
-
 - Edmund optics diffuser, perfect characteristics, high price. -> 12.5mm
 https://www.edmundoptics.eu/p/125mm-dia-broadband-hybrid-diffuser/34782/
 
 ## Protective lens
-Acrylic (Transmission Spectrum really good from about 400nm, maybe 1 channel sacrificed, to 1200nm) protective lens:
-https://www.fluid3dworkshop.co.uk/basket 40mm
+Acrylic (Transmission Spectrum really good from about 400nm, maybe 1 channel sacrificed, to 1200nm) protective lens: (40mm x 2mm)
+https://www.fluid3dworkshop.co.uk/round-clear-acrylic-bases-40mm-x11_212_1840
