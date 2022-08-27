@@ -2529,6 +2529,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f03c46bd-0109-4ce6-9f59-bea28436823f)
   )
+  (text "Do not place C501\nto ensure proper\nstartup sequence."
+    (at 66.04 110.49 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f4946bc7-3000-422e-8d69-103dd84788d3)
+  )
   (text "GPIO34-35-36-37-38-39 Input only" (at 193.04 141.605 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f8af422d-d186-418e-ab55-a2bc58e88d15)
@@ -4371,7 +4376,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 73.66 140.335 180) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid d133b442-e512-4b77-b41e-6829f3876cf7)
     (property "Reference" "C501" (id 0) (at 70.485 137.795 0))
     (property "Value" "100n" (id 1) (at 71.12 142.875 0))
@@ -4381,6 +4386,7 @@
     (property "Datasheet" "~" (id 3) (at 73.66 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Place" "DNP" (id 4) (at 69.215 140.335 0))
     (pin "1" (uuid d9fd226a-d496-4e7a-9046-cf572a0e60ac))
     (pin "2" (uuid 2605e0c6-7b82-4ead-bb27-81b15a14ba69))
   )
