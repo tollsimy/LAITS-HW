@@ -2534,6 +2534,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f4946bc7-3000-422e-8d69-103dd84788d3)
   )
+  (text "NOTE: default position\nof the antenna selector\njumper of ESP-WROVER-IE\nselects the IPEX connector.\nIf the PCB antenna is used\nthe jumper need to be moved.\nIf ESP-WROVER_E is used, the\ndefault position of the jumper\nconnect the PCB antenna."
+    (at 66.675 98.425 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f4b3857a-b066-42e1-a89f-0bea5e474bc4)
+  )
   (text "GPIO34-35-36-37-38-39 Input only" (at 193.04 141.605 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f8af422d-d186-418e-ab55-a2bc58e88d15)

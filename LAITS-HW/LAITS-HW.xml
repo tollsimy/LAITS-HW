@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/tollsimy/Desktop/Tirocinio/LAITS/LAITS-HW/LAITS-HW/LAITS-HW.kicad_sch</source>
-    <date>Wed Aug 10 13:09:37 2022</date>
+    <date>Thu Sep  1 15:37:12 2022</date>
     <tool>Eeschema 6.0.7-1.fc36</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LAITS (Light Analysis Iot porTable Spectrometer)</title>
         <company>Simone Tollardo</company>
-        <rev>1.0.1</rev>
-        <date>2022-07-14</date>
+        <rev>1.0.3</rev>
+        <date>2022-08-12</date>
         <source>LAITS-HW.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>PS + USB</title>
         <company>Simone Tollardo</company>
-        <rev>1.0.1</rev>
-        <date>2022-07-14</date>
+        <rev>1.0.3</rev>
+        <date>2022-08-12</date>
         <source>USB.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>Sensors</title>
         <company>Simone Tollardo</company>
-        <rev>1.0.1</rev>
-        <date>2022-07-14</date>
+        <rev>1.0.3</rev>
+        <date>2022-08-12</date>
         <source>Sensors.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -62,8 +62,8 @@
       <title_block>
         <title>AUX + Peripherals</title>
         <company>Simone Tollardo</company>
-        <rev>1.0.1</rev>
-        <date>2022-07-14</date>
+        <rev>1.0.3</rev>
+        <date>2022-08-12</date>
         <source>Aux_peripherals.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -80,8 +80,8 @@
       <title_block>
         <title>ESP</title>
         <company>Simone Tollardo</company>
-        <rev>1.0.1</rev>
-        <date>2022-07-14</date>
+        <rev>1.0.3</rev>
+        <date>2022-08-12</date>
         <source>ESP.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -98,8 +98,8 @@
       <title_block>
         <title>BATT</title>
         <company>Simone Tollardo</company>
-        <rev>1.0.1</rev>
-        <date>2022-07-14</date>
+        <rev>1.0.3</rev>
+        <date>2022-08-12</date>
         <source>BATT+POWER.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -995,15 +995,6 @@
       <sheetpath names="/AUX + Peripherals/" tstamps="/1c257f8f-2137-47e2-9ced-0ed4433361c2/"/>
       <tstamps>0ac7d18d-6a2b-4daa-ad31-67bd512ff8eb</tstamps>
     </comp>
-    <comp ref="C501">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="ESP"/>
-      <property name="Sheetfile" value="ESP.kicad_sch"/>
-      <sheetpath names="/ESP/" tstamps="/5edebedc-f41c-4f1f-9f90-5bb7df590118/"/>
-      <tstamps>d133b442-e512-4b77-b41e-6829f3876cf7</tstamps>
-    </comp>
     <comp ref="C502">
       <value>1n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
@@ -1347,7 +1338,7 @@
     </comp>
     <comp ref="SW501">
       <value>SW_BOOT</value>
-      <footprint>Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS</footprint>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H5mm</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value="ESP"/>
       <property name="Sheetfile" value="ESP.kicad_sch"/>
@@ -1356,7 +1347,7 @@
     </comp>
     <comp ref="SW502">
       <value>SW_RST</value>
-      <footprint>Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS</footprint>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H5mm</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value="ESP"/>
       <property name="Sheetfile" value="ESP.kicad_sch"/>
@@ -1382,7 +1373,7 @@
       <tstamps>4cd41a28-3f56-4844-a067-dee9c19ec9ac</tstamps>
     </comp>
     <comp ref="SW505">
-      <value>SW_RGB_CHRG</value>
+      <value>SW_RGB_EN</value>
       <footprint>Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value="ESP"/>
@@ -2055,7 +2046,7 @@
     <comp ref="U602">
       <value>AP62301Z6-7</value>
       <footprint>LAITS-LIB:LAITS-SOT-563</footprint>
-      <libsource lib="LAITS-LIB" part="AP62301WU-7" description=""/>
+      <libsource lib="LAITS-LIB" part="AP62301Z6-7" description=""/>
       <property name="Sheetname" value="BATT + POWER"/>
       <property name="Sheetfile" value="BATT+POWER.kicad_sch"/>
       <sheetpath names="/BATT + POWER/" tstamps="/cae5ab82-da76-4670-8a36-68f75cc70c4e/"/>
@@ -2562,10 +2553,10 @@
         <pin num="C2-" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="LAITS-LIB" part="AP62301WU-7">
+    <libpart lib="LAITS-LIB" part="AP62301Z6-7">
       <fields>
         <field name="Reference">U?</field>
-        <field name="Value">AP62301WU-7</field>
+        <field name="Value">AP62301Z6-7</field>
       </fields>
       <pins>
         <pin num="1" name="VIN" type="power_in"/>
@@ -3177,7 +3168,7 @@
     </net>
     <net code="13" name="/AUX + Peripherals/SCL0">
       <node ref="J401" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R502" pin="2" pintype="passive"/>
+      <node ref="R504" pin="2" pintype="passive"/>
       <node ref="U303" pin="6" pinfunction="SCL" pintype="input"/>
       <node ref="U304" pin="2" pinfunction="SCL" pintype="input"/>
       <node ref="U305" pin="4" pinfunction="SCL" pintype="input"/>
@@ -3194,7 +3185,7 @@
     </net>
     <net code="15" name="/AUX + Peripherals/SDA0">
       <node ref="J401" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R504" pin="2" pintype="passive"/>
+      <node ref="R502" pin="2" pintype="passive"/>
       <node ref="U303" pin="4" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="U304" pin="6" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="U305" pin="6" pinfunction="SDA" pintype="bidirectional"/>
@@ -3384,6 +3375,7 @@
       <node ref="U603" pin="27" pinfunction="PVL" pintype="passive"/>
     </net>
     <net code="53" name="/BATT + POWER/STAT">
+      <node ref="D601" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R613" pin="2" pintype="passive"/>
       <node ref="U603" pin="16" pinfunction="STAT" pintype="passive"/>
     </net>
@@ -3429,20 +3421,16 @@
     <net code="62" name="/BATT + POWER/VSET_R">
       <node ref="R620" pin="1" pintype="passive"/>
     </net>
-    <net code="63" name="/BATT + POWER/~{BATT_S_LED}">
-      <node ref="D601" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U502" pin="8" pinfunction="I/O[6]" pintype="passive"/>
-    </net>
-    <net code="64" name="/ESP/Buzzer">
+    <net code="63" name="/ESP/Buzzer">
       <node ref="Q402" pin="1" pinfunction="B" pintype="input"/>
       <node ref="U501" pin="29" pinfunction="IO5" pintype="bidirectional"/>
     </net>
-    <net code="65" name="/ESP/DS_DQ">
+    <net code="64" name="/ESP/DS_DQ">
       <node ref="R301" pin="2" pintype="passive"/>
       <node ref="U301" pin="2" pinfunction="DQ" pintype="bidirectional"/>
       <node ref="U501" pin="33" pinfunction="IO21" pintype="bidirectional"/>
     </net>
-    <net code="66" name="/ESP/EN">
+    <net code="65" name="/ESP/EN">
       <node ref="C503" pin="2" pintype="passive"/>
       <node ref="C504" pin="1" pintype="passive"/>
       <node ref="Q202" pin="3" pinfunction="C" pintype="passive"/>
@@ -3450,80 +3438,83 @@
       <node ref="SW502" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="3" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="67" name="/ESP/IO0">
-      <node ref="C501" pin="2" pintype="passive"/>
+    <net code="66" name="/ESP/IO0">
       <node ref="Q201" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="SW501" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="25" pinfunction="IO0" pintype="bidirectional"/>
     </net>
-    <net code="68" name="/ESP/LOG_EN">
+    <net code="67" name="/ESP/LOG_EN">
       <node ref="C505" pin="2" pintype="passive"/>
       <node ref="R508" pin="1" pintype="passive"/>
       <node ref="SW503" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U502" pin="27" pinfunction="I/O[0]" pintype="passive"/>
     </net>
-    <net code="69" name="/ESP/RGB_CHRG">
+    <net code="68" name="/ESP/RGB_EN">
       <node ref="C510" pin="2" pintype="passive"/>
       <node ref="R510" pin="2" pintype="passive"/>
       <node ref="SW505" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U502" pin="19" pinfunction="I/O[12]" pintype="passive"/>
     </net>
-    <net code="70" name="/ESP/RST_PROV">
+    <net code="69" name="/ESP/RST_PROV">
       <node ref="C506" pin="2" pintype="passive"/>
       <node ref="R509" pin="1" pintype="passive"/>
       <node ref="SW504" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="7" pinfunction="IO35" pintype="input"/>
     </net>
-    <net code="71" name="/ESP/RXDR">
+    <net code="70" name="/ESP/RXDR">
       <node ref="R512" pin="2" pintype="passive"/>
       <node ref="U501" pin="34" pinfunction="RXD0" pintype="bidirectional"/>
     </net>
-    <net code="72" name="/ESP/SLEEP">
+    <net code="71" name="/ESP/SLEEP">
       <node ref="C511" pin="2" pintype="passive"/>
       <node ref="R513" pin="2" pintype="passive"/>
       <node ref="SW506" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U501" pin="6" pinfunction="IO34" pintype="input"/>
     </net>
-    <net code="73" name="/ESP/TCK">
+    <net code="72" name="/ESP/TCK">
       <node ref="J501" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U501" pin="16" pinfunction="IO13" pintype="bidirectional"/>
     </net>
-    <net code="74" name="/ESP/TDI">
+    <net code="73" name="/ESP/TDI">
       <node ref="J501" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U501" pin="14" pinfunction="IO12" pintype="bidirectional"/>
     </net>
-    <net code="75" name="/ESP/TDO">
+    <net code="74" name="/ESP/TDO">
       <node ref="J501" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U501" pin="23" pinfunction="IO15" pintype="bidirectional"/>
     </net>
-    <net code="76" name="/ESP/TMS">
+    <net code="75" name="/ESP/TMS">
       <node ref="J501" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U501" pin="13" pinfunction="IO14" pintype="bidirectional"/>
     </net>
-    <net code="77" name="/ESP/TXDR">
+    <net code="76" name="/ESP/TXDR">
       <node ref="R511" pin="1" pintype="passive"/>
       <node ref="U501" pin="35" pinfunction="TXD0" pintype="bidirectional"/>
     </net>
-    <net code="78" name="/ESP/VBAT_SENS">
+    <net code="77" name="/ESP/VBAT_SENS">
       <node ref="C502" pin="1" pintype="passive"/>
       <node ref="D501" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R505" pin="2" pintype="passive"/>
       <node ref="R506" pin="1" pintype="passive"/>
       <node ref="U501" pin="4" pinfunction="SENSOR_VP" pintype="input"/>
     </net>
-    <net code="79" name="/ESP/~{EXP_INT}">
+    <net code="78" name="/ESP/~{EXP_INT}">
       <node ref="R514" pin="2" pintype="passive"/>
       <node ref="U501" pin="5" pinfunction="SENSOR_VN" pintype="input"/>
       <node ref="U502" pin="10" pinfunction="NINT" pintype="passive"/>
     </net>
-    <net code="80" name="/ESP/~{EXP_RST}">
+    <net code="79" name="/ESP/~{EXP_RST}">
       <node ref="R515" pin="2" pintype="passive"/>
       <node ref="U501" pin="26" pinfunction="IO4" pintype="bidirectional"/>
       <node ref="U502" pin="24" pinfunction="NRESET" pintype="passive"/>
     </net>
-    <net code="81" name="/Sensors/ADDR">
+    <net code="80" name="/Sensors/ADDR">
       <node ref="R302" pin="1" pintype="passive"/>
       <node ref="U303" pin="2" pinfunction="ADDR" pintype="input"/>
+    </net>
+    <net code="81" name="/Sensors/AS_INT">
+      <node ref="U302" pin="7" pinfunction="INT" pintype="output"/>
+      <node ref="U502" pin="8" pinfunction="I/O[6]" pintype="passive"/>
     </net>
     <net code="82" name="/Sensors/DVI">
       <node ref="C311" pin="1" pintype="passive"/>
@@ -3625,7 +3616,6 @@
       <node ref="C408" pin="2" pintype="passive"/>
       <node ref="C409" pin="2" pintype="passive"/>
       <node ref="C410" pin="2" pintype="passive"/>
-      <node ref="C501" pin="1" pintype="passive"/>
       <node ref="C502" pin="2" pintype="passive"/>
       <node ref="C503" pin="1" pintype="passive"/>
       <node ref="C504" pin="2" pintype="passive"/>
@@ -3919,82 +3909,79 @@
     <net code="140" name="unconnected-(U302-Pad6)">
       <node ref="U302" pin="6" pinfunction="GPIO" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="141" name="unconnected-(U302-Pad7)">
-      <node ref="U302" pin="7" pinfunction="INT" pintype="output+no_connect"/>
-    </net>
-    <net code="142" name="unconnected-(U304-Pad4)">
+    <net code="141" name="unconnected-(U304-Pad4)">
       <node ref="U304" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="143" name="unconnected-(U304-Pad5)">
+    <net code="142" name="unconnected-(U304-Pad5)">
       <node ref="U304" pin="5" pinfunction="INT" pintype="output+no_connect"/>
     </net>
-    <net code="144" name="unconnected-(U305-Pad5)">
+    <net code="143" name="unconnected-(U305-Pad5)">
       <node ref="U305" pin="5" pinfunction="INT" pintype="output+no_connect"/>
     </net>
-    <net code="145" name="unconnected-(U401-Pad3)">
+    <net code="144" name="unconnected-(U401-Pad3)">
       <node ref="U401" pin="3" pinfunction="MISO" pintype="output+no_connect"/>
     </net>
-    <net code="146" name="unconnected-(U401-Pad6)">
+    <net code="145" name="unconnected-(U401-Pad6)">
       <node ref="U401" pin="6" pinfunction="~{TS}" pintype="input+no_connect"/>
     </net>
-    <net code="147" name="unconnected-(U401-Pad9)">
+    <net code="146" name="unconnected-(U401-Pad9)">
       <node ref="U401" pin="9" pintype="no_connect"/>
     </net>
-    <net code="148" name="unconnected-(U401-Pad10)">
+    <net code="147" name="unconnected-(U401-Pad10)">
       <node ref="U401" pin="10" pintype="no_connect"/>
     </net>
-    <net code="149" name="unconnected-(U401-Pad11)">
+    <net code="148" name="unconnected-(U401-Pad11)">
       <node ref="U401" pin="11" pintype="no_connect"/>
     </net>
-    <net code="150" name="unconnected-(U401-Pad12)">
+    <net code="149" name="unconnected-(U401-Pad12)">
       <node ref="U401" pin="12" pintype="no_connect"/>
     </net>
-    <net code="151" name="unconnected-(U401-Pad13)">
+    <net code="150" name="unconnected-(U401-Pad13)">
       <node ref="U401" pin="13" pinfunction="TEST" pintype="no_connect"/>
     </net>
-    <net code="152" name="unconnected-(U401-Pad14)">
+    <net code="151" name="unconnected-(U401-Pad14)">
       <node ref="U401" pin="14" pinfunction="~{PFO}" pintype="open_collector+no_connect"/>
     </net>
-    <net code="153" name="unconnected-(U402-Pad8)">
+    <net code="152" name="unconnected-(U402-Pad8)">
       <node ref="U402" pin="8" pinfunction="~{SAFEBOOT}" pintype="input+no_connect"/>
     </net>
-    <net code="154" name="unconnected-(U402-Pad13)">
+    <net code="153" name="unconnected-(U402-Pad13)">
       <node ref="U402" pin="13" pinfunction="TXD" pintype="output+no_connect"/>
     </net>
-    <net code="155" name="unconnected-(U402-Pad14)">
+    <net code="154" name="unconnected-(U402-Pad14)">
       <node ref="U402" pin="14" pinfunction="RXD" pintype="input+no_connect"/>
     </net>
-    <net code="156" name="unconnected-(U501-Pad17)">
+    <net code="155" name="unconnected-(U501-Pad17)">
       <node ref="U501" pin="17" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="157" name="unconnected-(U501-Pad18)">
+    <net code="156" name="unconnected-(U501-Pad18)">
       <node ref="U501" pin="18" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="158" name="unconnected-(U501-Pad19)">
+    <net code="157" name="unconnected-(U501-Pad19)">
       <node ref="U501" pin="19" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="159" name="unconnected-(U501-Pad20)">
+    <net code="158" name="unconnected-(U501-Pad20)">
       <node ref="U501" pin="20" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="160" name="unconnected-(U501-Pad21)">
+    <net code="159" name="unconnected-(U501-Pad21)">
       <node ref="U501" pin="21" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="161" name="unconnected-(U501-Pad22)">
+    <net code="160" name="unconnected-(U501-Pad22)">
       <node ref="U501" pin="22" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="162" name="unconnected-(U501-Pad24)">
+    <net code="161" name="unconnected-(U501-Pad24)">
       <node ref="U501" pin="24" pinfunction="IO2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="163" name="unconnected-(U501-Pad27)">
+    <net code="162" name="unconnected-(U501-Pad27)">
       <node ref="U501" pin="27" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="164" name="unconnected-(U501-Pad28)">
+    <net code="163" name="unconnected-(U501-Pad28)">
       <node ref="U501" pin="28" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="165" name="unconnected-(U501-Pad32)">
+    <net code="164" name="unconnected-(U501-Pad32)">
       <node ref="U501" pin="32" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="166" name="unconnected-(U502-Pad11)">
+    <net code="165" name="unconnected-(U502-Pad11)">
       <node ref="U502" pin="11" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
